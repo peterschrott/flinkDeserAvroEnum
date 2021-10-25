@@ -1,0 +1,11 @@
+@namespace("org.example")
+protocol MyProtocol {
+
+	enum MyEnumType {
+		TypeVal1, TypeVal2
+	}
+
+	record MyRecord {
+		MyEnumType type;
+	}
+}
