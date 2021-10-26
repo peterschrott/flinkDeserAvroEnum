@@ -13,3 +13,5 @@
     - `custom.CustomRegistryAvroFormatFactory` is a customized version of `org.apache.flink.formats.avro.registry.confluent.RegistryAvroFormatFactory`
         - the target schema is NOT parsed from `CREATE TABLE` SQL rather than passed via parameters
         - it shows that `MyRecord` can be successfully deserialized from into table from the Avro record
+
+Special thanks and credits to [eastcirclek](https://github.com/eastcirclek) for providing the minimum example this example is based on.
